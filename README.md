@@ -28,5 +28,7 @@ There are four placeholder preview images (theme_preview1, theme_preview2, ...) 
 <string name="email_id">blahblah@gmail.com</string> // Developer email id
 <string name="email_subject">Blah blah theme</string>  // Email subject 
 
+* If you have less number of themes make sure to set the layout_weight value of unwanted layouts in activity_main.xml to "0.0"
+
 * Colors
 Every color used in the app including window background, action bar are coded here. Change them to change the visual properties 
