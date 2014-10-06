@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="ab_theme">#ff8e4497</color>
+     <color name="window_bg">#ff75387d</color> 
+     <color name="light_bg">#fffafafa</color>
+     <color name="red">#ffeb5b61</color>
+     <color name="red_pressed">#1aeb5b61</color>     
+     <color name="dark_grey">#ff4d4d4d</color>
+     <color name="preview_bg">#ff0097a7</color> 
+     <color name="bottom_bg">#ff35454d</color>                            
+</resources>

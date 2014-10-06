@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_bg"
+	android:fitsSystemWindows="true"
+	android:clipToPadding="false"  >
+	<RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@color/preview_bg">
+	    <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:src="@drawable/theme_preview3" />
+	    <RelativeLayout
+	        	android:layout_width="72.0dip"
+	        	android:layout_height="72.0dip"
+	        	android:layout_alignParentRight="true"
+	        	android:layout_alignParentBottom="true"
+	        	android:layout_marginRight="16dp"
+	        	android:layout_marginBottom="16dp"
+	        	android:id="@+id/theme3"        
+	        	android:background="@drawable/fab">		
+	        	<ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/apply" android:layout_centerInParent="true" />
+    		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>
