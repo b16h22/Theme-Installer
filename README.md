@@ -6,7 +6,8 @@ Multiple theme installer for cm11 themes
 * Adding themes
 Put your themes inside assets/files/
 Their names should be theme1.apk,theme2.apk,theme3.apk and theme4.apk respectively
-In the /res/values/arrays.xml you will find three arrays. There you have to add your Themes Names, Packages and Colors.
+
+* In the /res/values/arrays.xml you will find three arrays. There you have to add your Themes Names, Packages and Colors.
 
 * Add theme icons
 You can find 4 icons(theme_icon1, theme_icon2, ...) inside drawable directories. Replace them with your own icons. Dont change the names
