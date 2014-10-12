@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_names">
+        <item>Theme 1</item>
+        <item>Theme 2</item>
+        <item>Theme 3</item>
+        <item>Theme 4</item>
+    </string-array>
+
+    <string-array name="theme_packages">
+        <item>com.example.theme1</item>
+        <item>com.example.theme2</item>
+        <item>com.example.theme3</item>
+        <item>com.example.theme4</item>
+    </string-array>
+
+    <string-array name="theme_colors">
+        <item>#ffffff</item>
+        <item>#212121</item>
+        <item>#111111</item>
+        <item>#999999</item>
+    </string-array>
+</resources>

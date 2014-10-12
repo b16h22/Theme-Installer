@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="current_version">1.0</string>
     <string name="app_name">Theme Installer</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="theme_name1">Theme number one</string>
-    <string name="theme_name2">Theme number two</string>
-    <string name="theme_name3">Theme number three</string>
-    <string name="theme_name4">Theme number four</string>
-    <string name="title_activity_theme_one_selector">Theme One</string>
-    <string name="title_activity_theme_two_selector">Theme Two</string>
-    <string name="title_activity_theme_three_selector">Theme Three</string>
-    <string name="title_activity_theme_four_selector">Theme Four</string>
-	<string name="share">Share theme</string>
-	<string name="play_store_link">https://play.google.com/store/apps/details?id=com.b16h22.nero</string>	
-	<string name="rate">Rate theme</string>
-	<string name="email">Email developer</string>
-	<string name="email_id">blahblah@gmail.com</string>	
-	<string name="email_subject">Blah blah theme</string>	
+    <string name="title_activity_theme">Theme Panel</string>
+
+    <string name="share_title">Share</string>
+    <string name="email_title">Email</string>
+    <string name="rate_title">Rate</string>
+
+    <string name="share_link">link_here</string>
+    <string name="email_link">email_here</string>
+    <string name="rate_link">rate_link_here</string>
+    <string name="delete_title">Uninstall Theme</string>
+    <string name="color_pick">Pick Theme Color</string>
+
 </resources>

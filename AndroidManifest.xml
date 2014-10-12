@@ -26,20 +26,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.themeinstaller.ThemeOneSelector"
-            android:label="@string/title_activity_theme_one_selector" >
-        </activity>
-        <activity
-            android:name="com.android.themeinstaller.ThemeTwoSelector"
-            android:label="@string/title_activity_theme_two_selector" >
-        </activity>
-        <activity
-            android:name="com.android.themeinstaller.ThemeThreeSelector"
-            android:label="@string/title_activity_theme_three_selector" >
-        </activity>
-        <activity
-            android:name="com.android.themeinstaller.ThemeFourSelector"
-            android:label="@string/title_activity_theme_four_selector" >
+            android:name=".ThemeActivity"
+            android:label="@string/title_activity_theme" >
         </activity>
     </application>
 

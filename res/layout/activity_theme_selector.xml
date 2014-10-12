@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/preview_bg"
+	android:fitsSystemWindows="true"
+	android:clipToPadding="false"  >
+
+    <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:src="@drawable/theme_preview1"
+        android:id="@+id/preview_image" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:text="Install Theme"
+        android:id="@+id/install_button"
+        android:background="#43000000"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textColor="#deffffff"
+        android:textSize="18dp" />
+
+    <ImageView android:layout_width="72dp" android:layout_height="72dp" android:src="@drawable/apply" android:layout_centerInParent="true"
+        android:background="@drawable/fab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:id="@+id/fab"
+        android:alpha="1" />
+
+</RelativeLayout>

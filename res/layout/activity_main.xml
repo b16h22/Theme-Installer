@@ -2,25 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/window_bg"
-	android:fitsSystemWindows="true"
+    android:fitsSystemWindows="true"
 	android:clipToPadding="false"  >
-	<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@color/light_bg" android:padding="5.0dp" android:weightSum="6.0" android:orientation="vertical">
-	    <LinearLayout android:layout_height="0.0dp" android:layout_width="fill_parent" android:orientation="horizontal" android:background="@drawable/selector" android:layout_weight="1.0" android:id="@+id/theme1">
-   	        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/theme_icon1" android:layout_marginLeft="20dp" />
-   	        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/theme_name1" android:textColor="@color/dark_grey" android:textSize="18.0sp" android:gravity="center_vertical" android:layout_marginLeft="20.0dp" />
-    	</LinearLayout>
-    	<LinearLayout android:layout_height="0.0dp" android:layout_width="fill_parent" android:orientation="horizontal" android:background="@drawable/selector" android:layout_weight="1.0" android:id="@+id/theme2">
-   	        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/theme_icon2" android:layout_marginLeft="20dp" />
-   	        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/theme_name2" android:textColor="@color/dark_grey" android:textSize="18.0sp" android:gravity="center_vertical" android:layout_marginLeft="20.0dp" />
-    	</LinearLayout>
-    	<LinearLayout android:layout_height="0.0dp" android:layout_width="fill_parent" android:orientation="horizontal" android:background="@drawable/selector" android:layout_weight="1.0" android:id="@+id/theme3">
-   	        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/theme_icon3" android:layout_marginLeft="20dp" />
-   	        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/theme_name3" android:textColor="@color/dark_grey" android:textSize="18.0sp" android:gravity="center_vertical" android:layout_marginLeft="20.0dp" />
-    	</LinearLayout>
-    	<LinearLayout android:layout_height="0.0dp" android:layout_width="fill_parent" android:orientation="horizontal" android:background="@drawable/selector" android:layout_weight="1.0" android:id="@+id/theme4">
-   	        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/theme_icon4" android:layout_marginLeft="20dp" />
-   	        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/theme_name4" android:textColor="@color/dark_grey" android:textSize="18.0sp" android:gravity="center_vertical" android:layout_marginLeft="20.0dp" />
-    	</LinearLayout>
-	</LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/theme_listview" />
 </RelativeLayout>
