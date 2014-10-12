@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Theme Names go here-->
     <string-array name="theme_names">
         <item>Theme 1</item>
         <item>Theme 2</item>
@@ -7,6 +8,7 @@
         <item>Theme 4</item>
     </string-array>
 
+    <!--Theme Packages go here-->
     <string-array name="theme_packages">
         <item>com.example.theme1</item>
         <item>com.example.theme2</item>
@@ -14,6 +16,7 @@
         <item>com.example.theme4</item>
     </string-array>
 
+    <!--Theme Colors go here-->
     <string-array name="theme_colors">
         <item>#ffffff</item>
         <item>#212121</item>
