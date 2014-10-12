@@ -162,15 +162,15 @@ public class MainActivity extends Activity {
         switch(item.getItemId()){
 
             case R.id.share:
-                Share("link_to_share_here");
+                Share(getResources().getString(R.string.share_link));
                 break;
  
             case R.id.rate:
-                Rate("link_for_app_to_rate_here");
+                Rate(getResources().getString(R.string.rate_link));
                 break;
  
             case R.id.mail:
-                Mail("mail_subject_here", "email_address_here");
+                Mail(getResources().getString(R.string.email_subject), getResources().getString(R.string.email_address));
                 break;
  
         }
